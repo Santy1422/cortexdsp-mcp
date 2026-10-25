@@ -4,3 +4,6 @@ npm-debug.log*
 .env.*
 .DS_Store
 *.log
+
+# temporal: requiere scope workflow para pushear
+.github/workflows/ci.yml

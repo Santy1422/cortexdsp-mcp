@@ -31,7 +31,7 @@
   "homepage": "https://cortexdsp.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cortexdsp/cortexdsp-mcp.git"
+    "url": "https://github.com/Santy1422/cortexdsp-mcp.git"
   },
   "license": "MIT",
   "author": "CortexDSP",

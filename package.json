@@ -1,0 +1,45 @@
+{
+  "name": "cortexdsp-mcp",
+  "version": "0.1.0",
+  "description": "Open-source MCP server for Amazon DSP operations — scorecard, DNR, DCR & POD metrics inside Claude. Free demo tools; connect your own data with a CortexDSP API key.",
+  "type": "module",
+  "bin": {
+    "cortexdsp-mcp": "src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "amazon-dsp",
+    "dsp",
+    "dnr",
+    "scorecard",
+    "delivery-service-partner",
+    "last-mile",
+    "amzl",
+    "claude",
+    "ai-tools"
+  ],
+  "homepage": "https://cortexdsp.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cortexdsp/cortexdsp-mcp.git"
+  },
+  "license": "MIT",
+  "author": "CortexDSP",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^3.23.8"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "cortexdsp": {
+      "command": "npx",
+      "args": ["-y", "cortexdsp-mcp"],
+      "env": {
+        "CORTEXDSP_API_KEY": "replace-with-your-key-or-remove-for-demo-only"
+      }
+    }
+  }
+}
